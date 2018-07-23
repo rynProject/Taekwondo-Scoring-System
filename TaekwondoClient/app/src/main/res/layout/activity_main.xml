@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.tfkproject.taekwondoclient.MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/biru"
+            android:background="#FF0000FF"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:layout_width="0dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/biru2"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:text="2"
+                        android:textSize="50dp" />
+
+                    <Button
+                        android:id="@+id/biru1"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:text="1"
+                        android:textSize="50dp"/>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/biru5"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:text="5"
+                    android:textSize="50dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/biru3"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:text="3"
+                        android:textSize="50dp" />
+
+                    <Button
+                        android:id="@+id/biru4"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:text="4"
+                        android:textSize="50dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/merah"
+            android:background="#FFFF0000"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:layout_width="0dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/merah1"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:text="1"
+                        android:textSize="50dp"/>
+
+                    <Button
+                        android:id="@+id/merah2"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:text="2"
+                        android:textSize="50dp" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/merah5"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:text="5"
+                    android:textSize="50dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/merah4"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:text="4"
+                        android:textSize="50dp"/>
+
+                    <Button
+                        android:id="@+id/merah3"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:text="3"
+                        android:textSize="50dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_server"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/edt_ip"
+        android:hint="IP Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edt_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/send_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Message to Server" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/message_from_sv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Messages" />
+    </ScrollView>
+
+</LinearLayout>-->

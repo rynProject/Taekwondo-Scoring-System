@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/act_mulai"
+        android:title="Mulai"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_play"/>
+
+    <item android:id="@+id/act_reset"
+        android:title="Reset"
+        app:showAsAction="always"
+        android:visible="false"/>
+
+</menu>

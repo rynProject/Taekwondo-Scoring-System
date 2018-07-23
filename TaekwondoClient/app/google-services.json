@@ -1,0 +1,81 @@
+{
+  "project_info": {
+    "project_number": "39057381652",
+    "firebase_url": "https://taekwondo-94d50.firebaseio.com",
+    "project_id": "taekwondo-94d50",
+    "storage_bucket": "taekwondo-94d50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39057381652:android:a00abe15c694e583",
+        "android_client_info": {
+          "package_name": "app.tfkproject.taekwondoclient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "39057381652-rnunggt2i2rcqg7fp0l0b9gi779m7hlk.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "39057381652-rnunggt2i2rcqg7fp0l0b9gi779m7hlk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALIQ9jWMjb3VYXJyXvrlIDXn6jG__MOFk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39057381652:android:6ad3b2bcf38c12c5",
+        "android_client_info": {
+          "package_name": "app.tfkproject.taekwondoserver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "39057381652-rnunggt2i2rcqg7fp0l0b9gi779m7hlk.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "39057381652-rnunggt2i2rcqg7fp0l0b9gi779m7hlk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALIQ9jWMjb3VYXJyXvrlIDXn6jG__MOFk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
