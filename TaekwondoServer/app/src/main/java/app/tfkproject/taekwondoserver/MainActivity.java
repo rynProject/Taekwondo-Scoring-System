@@ -513,27 +513,27 @@ public class MainActivity extends AppCompatActivity {
 
                     //logika kombinasi untuk 3 client tekan tombol bersamaan
                     if (biru_cl1.equals("1") && biru_cl2.equals("1") && biru_cl3.equals("1")) {
-                        nilai_biru += 1;
+                        nilai_biru += 1-4;
                         nilai_merah += 0;
                         setScore(nilai_biru, nilai_merah);
                     }
-                    else if (biru_cl1.equals("2") && biru_cl2.equals("2") && biru_cl3.equals("2")) {
-                        nilai_biru += 2;
+                    if (biru_cl1.equals("2") && biru_cl2.equals("2") && biru_cl3.equals("2")) {
+                        nilai_biru += 2-8;
                         nilai_merah += 0;
                         setScore(nilai_biru, nilai_merah);
                     }
-                    else if (biru_cl1.equals("3") && biru_cl2.equals("3") && biru_cl3.equals("3")) {
-                        nilai_biru += 3;
+                    if (biru_cl1.equals("3") && biru_cl2.equals("3") && biru_cl3.equals("3")) {
+                        nilai_biru += 3-12;
                         nilai_merah += 0;
                         setScore(nilai_biru, nilai_merah);
                     }
-                    else if (biru_cl1.equals("4") && biru_cl2.equals("4") && biru_cl3.equals("4")) {
-                        nilai_biru += 4;
+                    if (biru_cl1.equals("4") && biru_cl2.equals("4") && biru_cl3.equals("4")) {
+                        nilai_biru += 4-16;
                         nilai_merah += 0;
                         setScore(nilai_biru, nilai_merah);
                     }
-                    else if (biru_cl1.equals("5") && biru_cl2.equals("5") && biru_cl3.equals("5")) {
-                        nilai_biru += 3;
+                    if (biru_cl1.equals("5") && biru_cl2.equals("5") && biru_cl3.equals("5")) {
+                        nilai_biru += 5-20;
                         nilai_merah += 0;
                         setScore(nilai_biru, nilai_merah);
                     }
@@ -624,27 +624,27 @@ public class MainActivity extends AppCompatActivity {
 
                     if (merah_cl1.equals("1") && merah_cl2.equals("1") && merah_cl3.equals("1")) {
                         nilai_biru += 0;
-                        nilai_merah += 1;
+                        nilai_merah += 1-4;
                         setScore(nilai_biru, nilai_merah);
                     }
-                    else if (merah_cl1.equals("2") && merah_cl2.equals("2") && merah_cl3.equals("2")) {
+                    if (merah_cl1.equals("2") && merah_cl2.equals("2") && merah_cl3.equals("2")) {
                         nilai_biru += 0;
-                        nilai_merah += 2;
+                        nilai_merah += 2-8;
                         setScore(nilai_biru, nilai_merah);
                     }
-                    else if (merah_cl1.equals("3") && merah_cl2.equals("3") && merah_cl3.equals("3")) {
+                    if (merah_cl1.equals("3") && merah_cl2.equals("3") && merah_cl3.equals("3")) {
                         nilai_biru += 0;
-                        nilai_merah += 3;
+                        nilai_merah += 3-12;
                         setScore(nilai_biru, nilai_merah);
                     }
-                    else if (merah_cl1.equals("4") && merah_cl2.equals("4") && merah_cl3.equals("4")) {
+                    if (merah_cl1.equals("4") && merah_cl2.equals("4") && merah_cl3.equals("4")) {
                         nilai_biru += 0;
-                        nilai_merah += 4;
+                        nilai_merah += 4-16;
                         setScore(nilai_biru, nilai_merah);
                     }
-                    else if (biru_cl1.equals("5") && merah_cl2.equals("5") && merah_cl3.equals("5")) {
+                    if (merah_cl1.equals("5") && merah_cl2.equals("5") && merah_cl3.equals("5")) {
                         nilai_biru += 0;
-                        nilai_merah += 5;
+                        nilai_merah += 5-20;
                         setScore(nilai_biru, nilai_merah);
                     }
 

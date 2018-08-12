@@ -34,26 +34,26 @@
 
                     <Button
                         android:id="@+id/biru2"
-                        android:layout_width="90dp"
-                        android:layout_height="90dp"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
                         android:text="2"
-                        android:textSize="50dp" />
+                        android:textSize="40dp" />
 
                     <Button
                         android:id="@+id/biru1"
-                        android:layout_width="90dp"
-                        android:layout_height="90dp"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
                         android:text="1"
-                        android:textSize="50dp"/>
+                        android:textSize="40dp"/>
 
                 </LinearLayout>
 
                 <Button
                     android:id="@+id/biru5"
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:text="5"
-                    android:textSize="50dp"/>
+                    android:textSize="40dp"/>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -62,17 +62,17 @@
 
                     <Button
                         android:id="@+id/biru3"
-                        android:layout_width="90dp"
-                        android:layout_height="90dp"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
                         android:text="3"
-                        android:textSize="50dp" />
+                        android:textSize="40dp" />
 
                     <Button
                         android:id="@+id/biru4"
-                        android:layout_width="90dp"
-                        android:layout_height="90dp"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
                         android:text="4"
-                        android:textSize="50dp"/>
+                        android:textSize="40dp"/>
 
                 </LinearLayout>
 
@@ -101,26 +101,26 @@
 
                     <Button
                         android:id="@+id/merah1"
-                        android:layout_width="90dp"
-                        android:layout_height="90dp"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
                         android:text="1"
-                        android:textSize="50dp"/>
+                        android:textSize="40dp"/>
 
                     <Button
                         android:id="@+id/merah2"
-                        android:layout_width="90dp"
-                        android:layout_height="90dp"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
                         android:text="2"
-                        android:textSize="50dp" />
+                        android:textSize="40dp" />
 
                 </LinearLayout>
 
                 <Button
                     android:id="@+id/merah5"
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:text="5"
-                    android:textSize="50dp"/>
+                    android:textSize="40dp"/>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -129,17 +129,17 @@
 
                     <Button
                         android:id="@+id/merah4"
-                        android:layout_width="90dp"
-                        android:layout_height="90dp"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
                         android:text="4"
-                        android:textSize="50dp"/>
+                        android:textSize="40dp"/>
 
                     <Button
                         android:id="@+id/merah3"
-                        android:layout_width="90dp"
-                        android:layout_height="90dp"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
                         android:text="3"
-                        android:textSize="50dp" />
+                        android:textSize="40dp" />
 
                 </LinearLayout>
 
